@@ -18,5 +18,5 @@ c.logic.registerData(myDataLogic,
                         "This is my Code for Logic.")
 
 ### add the logics direct to the workspace
-c.addLogicToWorkspace("sl1", "data", "myDataLogic", workspaceId="{#workspaceId}")
+c.addLogicToWorkspace("sl1", "logic", "myDataLogic", workspaceId="{#workspaceId}")
 c.waitForJobs()
