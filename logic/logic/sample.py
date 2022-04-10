@@ -13,7 +13,7 @@ def myDataLogic(inputs, c: LogicJob):
     """
     return True
 
-c.logic.registerData(myDataLogic,
+c.logic.registerLogic(myDataLogic,
                         "myDataLogic",
                         "This is my Code for Logic.")
 
